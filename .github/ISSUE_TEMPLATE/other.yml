@@ -3,20 +3,17 @@ description: Use this for any other question or issue. Please do not create blan
 title: "[OTHER]"
 labels: ["status: awaiting triage"]
 body: 
-  - type: markdown
-    attributes: 
-      value: "# Other issue"
   - type: textarea
     id: issuedescription
     attributes: 
       label: What would you like to share or ask? 
       description: Provide a clear and concise explanation of your issue.
-    validation: 
+    validations: 
       required: true
   - type: textarea
     id: extrainfo
     attributes:
       label: Additional information
       description: Is there anything else you want to add ? 
-    validation:
+    validations:
       required: false          
