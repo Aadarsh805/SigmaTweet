@@ -1,7 +1,7 @@
 name: ​🐞 Bug
 description: Report an issue to help us improve the project.
 title: "[BUG] <Title>"
-label: ["Goal: fix"]
+labels: ["Goal: fix"]
 body:
   - type: checkboxes
     attributes:
@@ -15,21 +15,21 @@ body:
       label: Description   
       id: description  
       description: A brief description of the issue or bug you are facing, also include what you tried and what didn't work.
-    validation:
+    validations:
       required: false
   - type: textarea
     attributes: 
       label: Screenshots
       id: screenshots
       desscription: Please add screenshots if applicable
-    validation:
+    validations:
       required: false
   - type: textarea
     attributes: 
       label: Any additional information? 
       id: extrainfo
       description: Any additional information or Is there anything we should know about this bug? 
-    validation: 
+    validations: 
       required: false
   - type: dropdown
     id: browsers

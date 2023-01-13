@@ -8,19 +8,19 @@ body:
     attribute:
       label: Description
       description: A clear and concise description of any alternative solution or features you've considered
-    validation: 
+    validations: 
       required: true
   - type: textarea
     id: screenshots
     attributes: 
       label: Screenshots
       description: Please add screenshots if applicable
-    validation: 
+    validations: 
       required: false
   - type: textarea
     id: extrainfo
     attributes: 
       label: Additional Information
       description: Add any other context or anything else about this idea
-    validation: 
+    validations: 
       required: false              
