@@ -14,9 +14,17 @@ body:
       label: Description of the above provided site
     validations:
       required: true
+  - type: dropdown
+    attributes:
+      label: Category
+      options:
+        - Frontend
+        - Backend
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Sub Category
-      description: example -> images, illustration, icons etc.
+      description: example ->  images", "fonts", "colors", "illustrations", "animations", "icons", "design inspiration", "testing", "themes & templates", "validation", "security", "authentication", "caching", "testings"
     validations:
       required: true
