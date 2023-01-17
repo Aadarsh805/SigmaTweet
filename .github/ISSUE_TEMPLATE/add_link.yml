@@ -5,7 +5,7 @@ labels: ["add link"]
 body:
   - type: textarea
     attributes:
-      label: Link
+      label: URL
       description: Provide complete/valid URL.
     validations:
       required: true
