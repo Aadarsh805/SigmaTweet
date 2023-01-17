@@ -4,20 +4,17 @@ title: "[Add Link]"
 labels: ["add link"]
 body:
   - type: text
-    id: link
     attributes:
       label: Link
       description: Provide complete/valid URL.
     validations:
       required: true
   - type: textarea
-    id: descrition of the link
     attributes:
       label: Description of the above provided site
     validations:
       required: true
   - type: textarea
-    id: subcategory
     attributes:
       label: Sub Category
       description: example -> images, illustration, icons etc.
