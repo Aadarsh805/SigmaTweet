@@ -3,7 +3,7 @@ description: Use this template to add a new link to the database
 title: "[Add] <name>"
 labels: ["add link"]
 body:
-  - type: textarea
+  - type: input
     attributes:
       label: URL
       description: Provide complete/valid URL.
