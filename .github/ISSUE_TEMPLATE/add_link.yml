@@ -25,9 +25,7 @@ body:
   - type: textarea
     attributes:
       label: Sub Category
-      description: example 
-
-      Frontend -> "images", "fonts", "colors", "illustrations", "animations", "icons", "design inspiration", "testing", "themes & templates"
+      description: Frontend -> "images", "fonts", "colors", "illustrations", "animations", "icons", "design inspiration", "testing", "themes & templates"
       Backend -> "validation", "security", "authentication", "caching", "testings"
     validations:
       required: true
